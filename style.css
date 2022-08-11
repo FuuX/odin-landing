@@ -24,8 +24,7 @@ html, body
 #menu > a {
     margin: 10px;
     text-decoration: none;
-    color: #E5E7EB;
-    
+    color: #999999;
 }
 
 #menu {
@@ -52,7 +51,7 @@ html, body
 }
 
 
-.maintext {
+.herotext {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
@@ -85,3 +84,46 @@ html, body
     width: 100px;
     color: white;
 }
+
+.maintext {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882F6;
+}
+
+#main {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 18px;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+}
+
+.images > p {
+    width: 150px;
+    text-align: center;
+    color: #999999;
+}
+
+#quote {
+    background-color: #e4e6eb;
+}
+
