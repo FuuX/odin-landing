@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
 
 html, body 
 {
@@ -110,6 +110,7 @@ html, body
     margin-right: auto;
     gap: 18px;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .images {
@@ -125,5 +126,26 @@ html, body
 
 #quote {
     background-color: #e4e6eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
 }
 
+
+.thor {
+    font-size: 2.25em;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    width: 800px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 500px;
+}
