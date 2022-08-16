@@ -149,3 +149,39 @@ html, body
     font-style: normal;
     margin-left: 500px;
 }
+
+.action {
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
+
+
+.signbox {
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    color: white;
+    border: 2px white solid;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.action > .text {
+    flex: 1;
+}
+
+footer {
+    background-color:#1F2937;
+    color: white;
+    height: 100px;
+    text-align: center;
+}
+
+.authors {
+    padding-top: 40px;
+}
